@@ -2,7 +2,7 @@ const accum = require('../lib/mumbling');
 const chai = require("chai");
 const assert = chai.assert;
 
-describe('First Non Repeating', ()=> {
+describe('Mumbling our results', ()=> {
   describe('Simple Tests', function() {
     it('should handle simple tests', function() {
       assert.strictEqual(accum("ZpglnRxqenU"), "Z-Pp-Ggg-Llll-Nnnnn-Rrrrrr-Xxxxxxx-Qqqqqqqq-Eeeeeeeee-Nnnnnnnnnn-Uuuuuuuuuuu");
